@@ -1,6 +1,5 @@
 import { Card, Container, Row, Col, Image } from "react-bootstrap"
-import alexaImage from "../assets/images/trending/alexa.png"
-import spotifyImage from "../assets/images/trending/spotify.png"
+import youtubesImage from "../assets/images/trending/youtubes.jpg"
 
 
 const Youtube = () => {
@@ -11,17 +10,18 @@ const Youtube = () => {
         <h1 className="text-white">Youtube Premium</h1>
         <br />
         <Row>
-          <Col md={4} className="movieWrapper" id="youtube">
+          <Col md={4} className="movieWrapper" id="Youtube">
             <Card className="movieImage">
-              <Image src={alexaImage} alt="Alexa Movies" className="images" />
+              <Image src={youtubesImage} alt="Alexa Movies" className="images" />
               <div className="bg-dark">
                 <div className="p-2 m-1 text-white">
-                  <Card.Title className="text-center">Netflix Private UHD 4K</Card.Title>
+                  <Card.Title className="text-center">Youtube Premium 4 Bulan</Card.Title>
+                  <Card.Title className="text-center">Rp25.000,-</Card.Title>
                   <Card.Text className="text-left">
-                    Bisa digunakan 5 Device berbeda, Jarang Screen limit dan pastinya cocok untuk paket keluarga.
+                    Nonton youtube bebas tanpa iklan dan menikmati premium selama 4 bulan.
                   </Card.Text>
                   <Card.Text className="text-left">
-                  <button type="button" id="btn">Buy Now</button>
+                  <button className="buttons"> <a href="https://wa.me/6285155094220?text=Halo%20saya%20ingin%20membeli%20Youtube%20Premium%204%20bulan%20dengan%20harga%20Rp25.000,-">Buy Now</a> </button>
                   </Card.Text>
                 </div>
               </div>
@@ -30,37 +30,19 @@ const Youtube = () => {
           <Col md={4} className="movieWrapper">
             <Card className="movieImage">
               <Image
-                src={alexaImage}
+                src={youtubesImage}
                 alt="Dune Movies"
                 className="images"
               />
               <div className="bg-dark">
                 <div className="p-2 m-1 text-white">
-                  <Card.Title className="text-center">
-                    NETFLIX SHARED 1 DEVICE
-                  </Card.Title>
+                  <Card.Title className="text-center"> Youtube Premium 1 Bulan</Card.Title>
+                  <Card.Title className="text-center">Rp8.000,-</Card.Title>
                   <Card.Text className="text-left">
-                    Hanya dapat digunakan 1 Device saja tidak boleh lebih.
+                  Nonton youtube bebas tanpa iklan dan menikmati premium selama 1 bulan.
                   </Card.Text>
                   <Card.Text className="text-left">
-                  <button type="button" id="btn">Buy Now</button>
-                  </Card.Text>
-                </div>
-              </div>
-            </Card>
-          </Col>
-          <Col md={4} className="movieWrapper">
-            <Card className="movieImage">
-              <Image src={alexaImage} alt="Dune Movies" className="images" />
-              <div className="bg-dark">
-                <div className="p-2 m-1 text-white">
-                  <Card.Title className="text-center">INFINITE</Card.Title>
-                  <Card.Text className="text-left">
-                    This is a wider card with natural lead-in to additional
-                    content
-                  </Card.Text>
-                  <Card.Text className="text-left">
-                  <button type="button" id="btn">Buy Now</button>
+                  <button className="buttons"> <a href="https://wa.me/6285155094220?text=Halo%20saya%20ingin%20membeli%20Youtube%20Premium%201%20Bulan%20dengan%20harga%20Rp8.000,-">Buy Now</a> </button>
                   </Card.Text>
                 </div>
               </div>
@@ -68,54 +50,16 @@ const Youtube = () => {
           </Col>
           <Col md={4} className="movieWrapper">
             <Card className="movieImage">
-              <Image src={spotifyImage} alt="Dune Movies" className="images" />
+              <Image src={youtubesImage} alt="Dune Movies" className="images" />
               <div className="bg-dark">
                 <div className="p-2 m-1 text-white">
-                  <Card.Title className="text-center">JOKER</Card.Title>
+                  <Card.Title className="text-center"> Youtube Admin Family 1 Bulan </Card.Title>
+                  <Card.Title className="text-center"> Rp15.000,- </Card.Title>
                   <Card.Text className="text-left">
-                    This is a wider card with natural lead-in to additional
-                    content
+                    Bisa mengundang 5 anggota untuk bergabung pada youtube premium dan bebas iklan.
                   </Card.Text>
                   <Card.Text className="text-left">
-                  <button type="button" id="btn">Buy Now</button>
-                  </Card.Text>
-                </div>
-              </div>
-            </Card>
-          </Col>
-          <Col md={4} className="movieWrapper">
-            <Card className="movieImage">
-              <Image
-                src={spotifyImage}
-                alt="Dune Movies"
-                className="images"
-              />
-              <div className="bg-dark">
-                <div className="p-2 m-1 text-white">
-                  <Card.Title className="text-center">LIGHT YEAR</Card.Title>
-                  <Card.Text className="text-left">
-                    This is a wider card with natural lead-in to additional
-                    content
-                  </Card.Text>
-                  <Card.Text className="text-left">
-                  <button type="button" id="btn">Buy Now</button>
-                  </Card.Text>
-                </div>
-              </div>
-            </Card>
-          </Col>
-          <Col md={4} className="movieWrapper">
-            <Card className="movieImage">
-              <Image src={spotifyImage} alt="Dune Movies" className="images" />
-              <div className="bg-dark">
-                <div className="p-2 m-1 text-white">
-                  <Card.Title className="text-center">Spotify</Card.Title>
-                  <Card.Text className="text-left">
-                    This is a wider card with natural lead-in to additional
-                    content
-                  </Card.Text>
-                  <Card.Text className="text-left">
-                  <button type="button" id="btn">Buy Now</button>
+                 <button className="buttons"> <a href="https://wa.me/6285155094220?text=Halo%20saya%20ingin%20membeli%20Youtube%20Premium%20admin%20dengan%20harga%20Rp15.000,-">Buy Now</a> </button>
                   </Card.Text>
                 </div>
               </div>
@@ -123,7 +67,7 @@ const Youtube = () => {
           </Col>
         </Row>
       </Container>
-      <p className="Copyright">&copy; @MarsApp</p>
+      <p className="copyright">&copy; @MarsApp</p>
     </div>
   )
 }
