@@ -1,6 +1,6 @@
 .myBG {
   height: 100vh;
-  background: url("../assets/images/bg/main.jpg");
+  background: url("../assets/images/bg/venuses.png");
   background-size: cover;
 }
 
@@ -19,26 +19,53 @@
   letter-spacing: 4px;
 }
 
+.copyright {
+  height: auto;
+  margin: 5px;
+  padding: 5px;
+  color: rgb(255, 255, 255);
+}
+
 .trending {
   height: auto;
-  background: url("../assets/images/bg/scifi.jpg");
+  background: url("../assets/images/bg/tomlaiders.png");
   background-size: cover;
+}
+
+.bawahan {
+  color: aqua;
 }
 
 .superhero {
   height: auto;
-  background: url("../assets/images/bg/spiderman.jpg");
+  background: url("../assets/images/bg/tomlaiders.png");
   background-size: cover;
 }
 
-.movieWrapper {
+.youtube {
+  height: auto;
+  background: url("../assets/images/bg/tomlaiders.png");
+  background-size: cover;
 }
 
 .movieImage {
   height: auto;
-  background-color: black;
+  background-color: rgb(24, 177, 160);
   margin: 5px;
   padding: 5px;
+}
+
+.buttons {
+  background-color: aqua;
+}
+
+.text-left {
+  font-style:normal;
+  font-variant:unset;
+}
+
+.text-center {
+  color: tomato;
 }
 
 .images {
