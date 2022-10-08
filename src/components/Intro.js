@@ -6,8 +6,8 @@ const Intro = () => {
       <Container className="text-white text-center d-flex justify-content-center align-items-center">
         <Row>
           <Col>
-            <div className="title">NONTON GRATIS</div>
-            <div className="title">GAK PAKE KARCIS</div>
+            <div className="title">MARS APP</div>
+            <div className="title">Welcome to Mars App</div>
             <div className="introButton mt-4 text-center">
               <Button variant="dark">Lihat Semua List</Button>
             </div>
