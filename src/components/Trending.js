@@ -1,31 +1,27 @@
 import { Card, Container, Row, Col, Image } from "react-bootstrap"
-import duneImage from "../assets/images/trending/dune.jpg"
-import everythingImage from "../assets/images/trending/everything.jpg"
-import infiniteImage from "../assets/images/trending/infinite.jpg"
-import jokerImage from "../assets/images/trending/joker.jpg"
-import lightyearImage from "../assets/images/trending/lightyear.jpg"
-import morbiusImage from "../assets/images/trending/morbius.jpg"
+import netflixsImage from "../assets/images/trending/netflixs.jpg"
+
 
 const Trending = () => {
   return (
     <div>
       <Container>
         <br />
-        <h1 className="text-white">TRENDING MOVIES</h1>
+        <h1 className="text-white">Netflix Premium</h1>
         <br />
         <Row>
           <Col md={4} className="movieWrapper" id="trending">
             <Card className="movieImage">
-              <Image src={duneImage} alt="Dune Movies" className="images" />
+              <Image src={netflixsImage} alt="Alexa Movies" className="images" />
               <div className="bg-dark">
                 <div className="p-2 m-1 text-white">
-                  <Card.Title className="text-center">DUNE</Card.Title>
+                  <Card.Title className="text-center">Netflix Private UHD 4K (1 Bulan)</Card.Title>
+                  <Card.Title className="text-center">Rp120.000,-</Card.Title>
                   <Card.Text className="text-left">
-                    This is a wider card with natural lead-in to additional
-                    content
+                    Bisa digunakan 5 Device berbeda, Jarang Screen limit dan pastinya cocok untuk paket keluarga.
                   </Card.Text>
                   <Card.Text className="text-left">
-                    Last updated 3 mins ago
+                  <button className="buttons"> <a href="https://wa.me/6285155094220?text=Hallo%20Mars%20App%20saya%20ingin%20membeli%20aplikasi%20premium.">Buy Now</a> </button>
                   </Card.Text>
                 </div>
               </div>
@@ -34,38 +30,21 @@ const Trending = () => {
           <Col md={4} className="movieWrapper">
             <Card className="movieImage">
               <Image
-                src={everythingImage}
+                src={netflixsImage}
                 alt="Dune Movies"
                 className="images"
               />
               <div className="bg-dark">
                 <div className="p-2 m-1 text-white">
                   <Card.Title className="text-center">
-                    EVERYTHING EVERWHERE
+                    NETFLIX SHARED 1 DEVICE (1 Bulan)
                   </Card.Title>
+                  <Card.Title className="text-center">Rp30.000,-</Card.Title>
                   <Card.Text className="text-left">
-                    This is a wider card with natural lead-in to additional
-                    content
+                    Hanya dapat digunakan 1 orang 1 Device tidak boleh lebih.
                   </Card.Text>
                   <Card.Text className="text-left">
-                    Last updated 3 mins ago
-                  </Card.Text>
-                </div>
-              </div>
-            </Card>
-          </Col>
-          <Col md={4} className="movieWrapper">
-            <Card className="movieImage">
-              <Image src={infiniteImage} alt="Dune Movies" className="images" />
-              <div className="bg-dark">
-                <div className="p-2 m-1 text-white">
-                  <Card.Title className="text-center">INFINITE</Card.Title>
-                  <Card.Text className="text-left">
-                    This is a wider card with natural lead-in to additional
-                    content
-                  </Card.Text>
-                  <Card.Text className="text-left">
-                    Last updated 3 mins ago
+                  <button className="buttons"> <a href="https://wa.me/6285155094220?text=Hallo%20Mars%20App%20saya%20ingin%20membeli%20aplikasi%20premium.">Buy Now</a> </button>
                   </Card.Text>
                 </div>
               </div>
@@ -73,54 +52,16 @@ const Trending = () => {
           </Col>
           <Col md={4} className="movieWrapper">
             <Card className="movieImage">
-              <Image src={jokerImage} alt="Dune Movies" className="images" />
+              <Image src={netflixsImage} alt="Dune Movies" className="images" />
               <div className="bg-dark">
                 <div className="p-2 m-1 text-white">
-                  <Card.Title className="text-center">JOKER</Card.Title>
+                  <Card.Title className="text-center">Netflix Sharing 2 Device (1 Bulan)</Card.Title>
+                  <Card.Title className="text-center">Rp20.000,-</Card.Title>
                   <Card.Text className="text-left">
-                    This is a wider card with natural lead-in to additional
-                    content
+                    Dalam 1 User terdapat 2 orang yang menggunakan dan sering screen limit.
                   </Card.Text>
                   <Card.Text className="text-left">
-                    Last updated 3 mins ago
-                  </Card.Text>
-                </div>
-              </div>
-            </Card>
-          </Col>
-          <Col md={4} className="movieWrapper">
-            <Card className="movieImage">
-              <Image
-                src={lightyearImage}
-                alt="Dune Movies"
-                className="images"
-              />
-              <div className="bg-dark">
-                <div className="p-2 m-1 text-white">
-                  <Card.Title className="text-center">LIGHT YEAR</Card.Title>
-                  <Card.Text className="text-left">
-                    This is a wider card with natural lead-in to additional
-                    content
-                  </Card.Text>
-                  <Card.Text className="text-left">
-                    Last updated 3 mins ago
-                  </Card.Text>
-                </div>
-              </div>
-            </Card>
-          </Col>
-          <Col md={4} className="movieWrapper">
-            <Card className="movieImage">
-              <Image src={morbiusImage} alt="Dune Movies" className="images" />
-              <div className="bg-dark">
-                <div className="p-2 m-1 text-white">
-                  <Card.Title className="text-center">MORBIUS</Card.Title>
-                  <Card.Text className="text-left">
-                    This is a wider card with natural lead-in to additional
-                    content
-                  </Card.Text>
-                  <Card.Text className="text-left">
-                    Last updated 3 mins ago
+                  <button className="buttons"> <a href="https://wa.me/6285155094220?text=Hallo%20Mars%20App%20saya%20ingin%20membeli%20aplikasi%20premium.">Buy Now</a> </button>
                   </Card.Text>
                 </div>
               </div>
